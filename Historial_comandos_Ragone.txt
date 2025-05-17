@@ -1,0 +1,734 @@
+pwd
+ls
+ls -l
+ls -a
+ls -la
+cd repogit
+
+cd /
+ls
+cd /
+ls
+cd etc
+ls
+cat passwd
+
+cd $HOME
+ls -a
+ls -A
+cd/etc
+cd /etc
+ls -la
+ls -lA
+cd
+man cat
+cat --help
+ls
+cd carpeta_compartida/cd /
+cd /
+ls
+cd libx32/
+cd /
+cd libx32
+/
+//
+--
+-
+.
+cd ..
+cd.
+cd .
+history
+cd $HOME
+history
+cd /
+history
+ls man
+man ls
+ls
+ls -l
+ls -a
+cat README
+cat --help
+cat << FIN
+linea 1
+linea 2
+linea 3
+linea 4
+FIN
+
+ls
+cat README
+cat << FIN > clase3.txt
+linea1
+linea2
+linea3
+linea4
+FIN
+
+ls
+cat clase3.txt
+cat << FIN > clase3.txt
+linea5
+linea6
+FIN
+
+cat clase3.txt
+cat << FIN >> clase3.txt
+linea7
+linea8
+FIN
+
+cat clase3
+cat clase3.txt
+vagrant halt
+id
+sudo userdel usuario1
+sudo useradd -c "programador java" -m  -s /bin/bash usuario2
+cat /etc/passwd
+cd/home
+ls
+cd/home
+sudo passwd usuario2
+su usuario2
+id
+sudo usermod -s /bin/bash usuario1
+cat /etc/passwd
+ps -ef
+ps -ef | grep usuario2
+sudo userdel usuario2
+ps -ef | grep 3216
+sudo kill -9 3216
+pdwd
+ls
+cat clase3.txt
+man bc
+bc <<< 1+6
+man bc
+cd /
+ls
+cd proc/
+ls
+cat cpuinfo
+cd
+ls
+cd /
+cd/
+ls
+cd/home
+cd /home
+ls
+sudo useradd -m -s /bin/bash -c "desarrollador 2" -G desarrollo -p "$
+
+
+cd /home
+
+
+exit
+sudo useradd -m -s /bin/bash -c "desarrollador 2" -G desarrollo -p "$
+cd /home
+exit
+ls/cdccddawsdasd
+cdcccddadasdasd/cd
+cd
+sus
+cd
+d
+c
+cd
+ls
+sudo grep usuario1 /etc/shadow | awk -F ':' {'print $2'}
+sudo useradd -m -s /bin/search -c "desarrollador 2" -G desarrollo -p '${$y$j9T$HUO/.pYCJY8iABT4Mvt6o0$VCuVrNUVoVDOhOX3CO7R0eGxXqm97zVDgkZWSnBEQa8}' usuario2
+sudo useradd -m -s /bin/bash -c "desarrollador 2" -G desarrollo -p '${$y$j9T$HUO/.pYCJY8iABT4Mvt6o0$VCuVrNUVoVDOhOX3CO7R0eGxXqm97zVDgkZWSnBEQa8}' usuario2
+sudo userdel usuario2
+sudo useradd -m -s /bin/bash -c "desarrollador 2" -G desarrollo -p '${$y$j9T$HUO/.pYCJY8iABT4Mvt6o0$VCuVrNUVoVDOhOX3CO7R0eGxXqm97zVDgkZWSnBEQa8}' usuario2
+sudo userdel usuario2
+cd /home
+ls
+sudo mkdel usuario2
+sudo rm -r usuario2
+ls
+sudo useradd -m -s /bin/bash -c "desarrollador 2" -G desarrollo -p '${$y$j9T$HUO/.pYCJY8iABT4Mvt6o0$VCuVrNUVoVDOhOX3CO7R0eGxXqm97zVDgkZWSnBEQa8}' usuario2
+ls
+sudo cat /etc/shadow
+sudo rm -r usuario2
+sudo userdel usuario2
+sudo useradd -m -s /bin/bash -c "desarrollador 2" -G desarrollo -p '$$y$j9T$HUO/.pYCJY8iABT4Mvt6o0$VCuVrNUVoVDOhOX3CO7R0eGxXqm97zVDgkZWSnBEQa8' usuario2
+ls
+sudo cat /etc/shadow
+cat /etc/group
+ls
+ls -l
+cd ..
+ls
+cd
+ls -l
+vim clase4.txt
+ls -l
+ls writeonly(
+ls writeonly/
+sudo su
+ls -l
+ls -l readonly/
+rm -r archivo.txt
+ls
+sudo rm -r archivo.txt
+ls
+ls readonly/
+ls - readonly(
+ls - readonly/
+cd
+ls
+ls -ls
+sudo chmod 740 clase3.txt
+ls -l
+sudo chmod 744 clase3.txt
+ls -l
+sudo chown usuario1 clase3.txt
+ls -l
+sudo chown :desarrollo clase3.txt
+ls -l
+cd /
+ls
+ls -l
+sudo vim clase4.txt
+cat clase4.txt
+ls -l
+sudo chown :vagrant
+sudo chown :vagrant clase4.txt
+ls -
+ls -l
+cat clase4.txt
+sudo mkdir prueba
+ls -l
+cd prueba/
+sudo mkdir readonly writeonly
+sudo mkdir noexec
+ls
+ls -l
+sudo chmod 754 
+sudo chmod 754 readonly
+ls -l
+sudo chmod 750 noexec
+sudo chmod 753 writeonly
+ls -l
+cd readonly
+cd /readonly
+ls
+cd readonly/
+sudo su
+ls -l
+cd prueba
+ls -
+ls -l
+tree readonly/
+ls -l readonly/
+sudo su
+ls
+cd /
+ls
+cd
+ls
+/
+cd /
+cd
+sudo apt update && install tree
+ls
+mkdir carpetas
+las
+ls
+cd carpetas
+cd
+tree /carpetas
+sudo apt update && sudo apt install tree
+ls
+tree /carpetas
+cd carpetas
+mkdir sub1 sub2 sub3
+ls
+cd
+tree /carpetas
+ls
+tree carpetas/
+cd carpetas
+mkdir subs
+ls
+ls | xargs mv subs
+ls
+cd
+tree carpetas/
+mkdir -p clase4/{mama,padre}/hijo{1..5}
+ls
+tree clase4/
+ls
+mkdir -p clase4bis/{mama/hijo{1..5},papa{perro,hijo{1..5}}}
+ls
+tree clase4bis/
+rm -r clase4bis
+ls
+mkdir -p clase4bis/{mama/hijo{1..5},papa/{perro,hijo{1..5}}}
+tree clase4bis/
+ls
+rm -r clase 4
+rm -r clase4
+ls
+mkdir -p clase4 clase4/{{mama, papa}/hijo{1..5},papa/perro}
+tree clase4/
+rm -r clase4
+ls
+rm -r papa}
+ls
+mkdir -p clase4/{{mama, papa}/hijo{1..5},papa/perro
+ls
+tree clase4/
+ls
+rm -r papa}
+rm -r clase4
+ls
+mkdir -p clase4/{mama, papa}/hijo{1..5},papa/perro
+ls
+tree clase4/
+rm -r clase4
+rm -r papa}
+mkdir -p clase4/{{mama, papa}/hijo{1..5},papa/perro}
+ls
+tree clase4/
+rm -r papa}
+rm -r clase4
+ls
+mkdir -p clase4/{mama, papa/hijo{1..5},papa/perro}
+ls
+tree clase4
+tree papa
+rm -r papa clase4
+ls
+mkdir -p clase4/{mama, papa/hijo{1..5}}
+tree clase 4
+tree clase4
+ls
+rm -r clase4 papa
+mkdir -p clase4/{mama, papa}/hijo{1..5}
+ls
+tree clase4
+rm -r clase4 papa}
+ls
+mkdir -p clase4/{mama,papa}/hijo{1..5}
+ls
+tree clase4
+rm -r clase4
+mkdir -p clase4/{mama,papa}/hijo{1..5},papa/perro
+ls
+tree clase4
+rm -r clase4
+ls
+mkdir -p clase4/{{mama,papa}/hijo{1..5},papa/perro}
+ls
+tree clase4
+ls
+cat etc/passwd
+cat /etc/passwd
+man useradd
+sudo useradd usuario1
+cd /home
+ls
+cd}
+cat 
+cat etc/passwd
+cat /etc/passwd
+cd
+ls
+sudo passwd usuario1
+su usuario1
+id
+sudo userdel usuario2
+cat /etc/passwd
+ls
+/home
+ls -a
+cd /
+ls
+cd /home
+ls
+rm -r usuario2/
+ls
+sudo rm-r usuario2
+sudo rm -r usuario2/
+ls
+sudo cat /etc/shadow
+cat /etc/group
+man groupadd
+sudo groupadd desarrollo
+cat /etc/group
+sudo usermod -G desarrollo usuario1
+cat /etc/group
+cat etc/shadow
+cat /etc/shadow
+sudo grep usuario1 /etc/shadow
+sudo grep usuario1 /etc/shadow | awk -F ':' {'print $2'}
+.
+ls
+sudo grep usuario1 /etc/shadow | awk -F ':' {'print $2'}
+c
+cddd
+ls -l
+vim case.ssh
+ls
+/
+cd /
+ls
+cd
+vim ariel.sh
+ls
+ls -l
+vim parametros.sh
+ls -l
+sudo chmod 777 parametros.sh
+ls -l
+./parametros.sh 
+vim parametros.sh
+ls -l
+vim parametros.sh
+./parametros.sh
+vim bucle.sh
+sudo chmod 777 bucle.sh
+./bucle.sh
+vim bucle.sh
+./bucle.sh
+vim creausuario.sh
+ls -
+ls -l
+vim buclewhile.sh
+sudo chmod 777 while.sh
+sudo chmod 777 buclewhile.sh
+./ buclewhile.sh
+./buclewhile.sh
+vim buclewhile.sh
+./buclewhile.sh
+vim case.ssh
+ls -l
+vim case.ss
+ls -l
+man del
+rm -r case.ssh
+ls -l
+vim case.sh
+sudo chmod 777 case.sh
+ls -l
+./case.sh
+./case.sh 1
+./case.sh 1 2
+./case.sh 2
+./case.sh 3
+./case.sh 4
+vim ifelse.sh
+sudo chmod 777 ifelse.sh
+ls -l
+./ifelse.sh
+./ifelse.sh 2 2
+./ifelse.sh 2 3
+./ifelse.sh 3 2
+vim arraycase.sh
+sudo chmod arraycase.sh
+sudo chmod 777 arraycase.sh
+ls -l
+./arraycase.sh
+ls -l
+ls
+ls -l
+vim creausuario.sh
+rm -r creausuario.sh
+ls -l
+vim creausuario.sh
+sudo chmod 777 creausuario.sh
+ls -l
+cd
+cd /
+ls -l
+cd /home
+pwd
+ls -l
+cd.
+cd .
+cd ..
+cd 
+ls -l
+vim listausuarios.txt
+ls -l
+./creausuarios.sh listausuarios.txt
+./creausuario.sh listausuarios.txt
+sasasdadddddddddddddddddddd
+vagrant
+cd 
+ls -l
+./creausuario.sh listausuarios.txt
+cd /etc
+sudo cat /etc/passwd
+sudo useradd -m -s /bin/bash -g desarrollo programador3
+sudo cat /etc/passwd
+sudo useradd -m -s /bin/bash -g coordinador lider
+cd /
+cd home
+ls -
+ls
+ls -l
+cd 
+vim creausuario.sh
+vim listausuarios.txt
+./creausuario.sh listausuarios.txt
+vim creausuario.sh
+./creausuario.sh listausuarios.txt
+cd /home
+ls -l
+cd ..
+ls -l
+cd /etc
+ls -l
+cd ..
+cd /etc/passwd
+cd /etc
+cd /passwd
+sudo cd/passwd
+sudo su
+ssh-keygen
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+sudo apt install git
+git --version
+cd 
+git clone git@github.com:arielr97/probandovm.git
+ls -la
+sudo cat README
+cp README probandovm
+ls -ls
+ls -la
+cd probandovm
+ls
+ls -la
+git status
+git add README
+git status
+git commit -m "primer commit"
+git push origin main
+git config --global user.email arielr.z97@outlook.com
+git config --global user.name arielr.97
+git commit -m "primer commit"
+git push origin main
+cd 
+ls -l
+cd repogit
+ls -
+ls -l
+rm -repogit
+rm -r repogit
+ls -l
+cd ..
+rm -r repogit
+ls -l
+cd probandovm
+ls -l
+ls
+cd ..
+ls 
+cd repogit
+ls
+ls -l
+cd ..
+cd 
+cd repogit
+git clone git@github.com:arielr97/TP_AySO.git
+ls -l
+ls -la
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep -i Home_url/etc/os-release
+c
+cd 
+cd repogit/TP_AySO/
+ls -la
+grep -i Home_url/etc/os-release
+cd repogit/TP_AySO/
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os
+grep -i Home_url /etc/os-release
+man grep
+grep i Home_url /etc/os-release > datos_url.txt
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+cat datos_url.txt
+whoami
+id -un
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+git add .
+git commit -m "ADD: agregando 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+git status
+cd 
+ls -l
+cd /
+ls -l
+cd /proc
+ls -l
+cat /proc/cpuinfo
+pwd
+ls -l
+cd /cpuinfo
+cd ..
+pwd
+ls -l
+cd 
+cd /home
+ls -l
+cd ..
+ls -l
+cd /proc
+ls -l
+cd ..
+cd 
+ls -l
+cd repogit/TP_AySO/
+ls -l
+grep "model name" /proc/cpuinfo 
+grep "model name" tail n-1 /proc/cpuinfo 
+grep "model name" tail -n1 /proc/cpuinfo 
+grep "model name" head -n1 /proc/cpuinfo 
+grep "model name" tail -n2 /proc/cpuinfo 
+grep "model name" head -n1 tail -n1 /proc/cpuinfo 
+grep "model name" tail -n1 /proc/cpuinfo 
+grep "model name" head -n1 /proc/cpuinfo
+grep "model name" /proc/cpuinfo
+grep head -n1 "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1
+man head
+ls -l
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+git status
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+ls -l
+cat << EOF >> README.md
+
+
+
+ls -l
+su vagrant
+
+
+EOF
+
+ls -l
+cat README.md
+:u
+u
+cat > README.md
+ls -l
+cat README.md
+cat > README.md
+cat README.md
+cat << EOF >> README.md
+Alumno: Ariel Ragone
+División: 116
+Turno: Mañana
+
+cat << EOF >> README.md
+Alumno: Ariel Ragone
+División: 116
+Turno: Mañana
+EOF
+
+ls -l
+cat README.md
+cat > README.md
+cat README.mod
+cat README.md
+cat << EOF >> README.md
+Alumno: Ariel Ragone
+División: 116
+Turno: Mañana
+EOF
+
+cat README.md
+ls -l
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+git status
+cd 
+ls -l
+mkdir -p {materia1, materia2}/uni{1..3}
+ls -l
+tree {materia1,
+cd \{materia1
+cd \{materia1,
+ls -l
+ls
+cd ..
+cat materia2}/
+tree materia2}
+rm -r {materia1,
+rm -r materia2}
+ls -l
+mkdir -p /materia1,materia2/uni{1..3}
+mkdir -p materia1,materia2/uni{1..3}
+ls -l
+cd home
+tree materia1,materia2/
+rm -r materia1,materia2/
+ls -l
+mkdir -p  /{materia1,materia2}/uni{1..3}
+ls -l
+mkdir -p $/{materia1,materia2}/uni{1..3}
+ls -l
+tree $
+rm -r $
+ls -l
+mkdir -p {materia1,materia2}/uni{1..3}
+ls -l
+tree materia1
+tree materia2
+tree
+pwd
+ls -l
+vim script_dir.sh
+sudo chmod 777 script_dir.sh
+ls -l
+./script_dir.sh
+ls -l
+tree 
+vim script_dir.sh
+ls -l
+rm -r materia1
+ls -l
+rm -r materia2 materia3
+ls -l
+rm -r materia4
+./script_dir.sh
+ls -l
+tree
+man mv
+mv script_dir.sh /repogit/TP_AySO
+mv script_dir.sh repogit/TP_AySO
+tree
+cd repogit/TP_AySO/
+ls -l
+git status
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+git status
+cat script_dir.sh 
+history -a
